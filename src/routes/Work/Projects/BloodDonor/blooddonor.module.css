@@ -1,0 +1,42 @@
+@import "../../../../index.css";
+h5{
+    font-size: 16px;
+    margin: 0 auto;
+}
+h5::after{
+    display: block;
+    content: "";
+    background-color:rgb(153, 1, 1);
+    height: 3px;
+    width: 40px;
+    bottom: 0;
+}
+.cover{
+    width:100vw;
+    z-index: 0;
+}
+.content_container{
+    padding: 2% 18%;
+}
+.content_container img{
+    width: 100%;
+}
+.row2_4_6{
+    display: grid;
+    grid-template-columns: 40% 55%;
+}
+.row2_6_4{
+    display: grid;
+    grid-template-columns: 55% 40%;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row3 h5{
+    text-transform: uppercase;
+}
+.row1{
+    padding: 2% 0;
+    text-align: center;
+}
