@@ -1,0 +1,35 @@
+@import "../../../../index.css";
+.cover{
+    width:100vw;
+    z-index: 0;
+}
+.content_container{
+    padding: 2% 18%;
+}
+.content_container img{
+    width: 100%;
+}
+.row2_4_6{
+    display: grid;
+    grid-template-columns: 40% 55%;
+}
+.row2_6_4{
+    display: grid;
+    grid-template-columns: 55% 40%;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row3 h5{
+    text-transform: uppercase;
+}
+.row1{
+    padding: 2% 0;
+    text-align: center;
+}
+.row5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}

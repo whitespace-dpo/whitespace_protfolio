@@ -11,21 +11,25 @@ const Project = [
     projectName: "Blood Donor",
     time: "September/2022 - November/2022",
     img: project_1,
+    link: "/blood_donor"
   },
   {
     projectName: "Human resource management",
     time: "September/2022 - January/2023",
     img: project_2,
+    link: "hr_management"
   },
   {
     projectName: "Staff Schedule",
     time: "February/2023",
     img: project_3,
+    link: "staff_schedule"
   },
   {
     projectName: "Growth Me",
     time: "March/2023 - Now",
     img: project_4,
+    link: "growth_me"
   },
 ];
 const Work = () => {
