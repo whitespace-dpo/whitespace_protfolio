@@ -285,18 +285,18 @@ const StaffSchedule = () => {
 
         <div className={styles.row1}>
           <h4>Competitive audit</h4>
-          <div className={styles.row3}>
-            <div>
+          <div className={styles.row3} >
+            <div style={{textAlign: "center"}}>
               <h5>Agendrix</h5>
-              <img src={logo1} alt="logo1" />
+              <img src={logo1} alt="logo1" className={styles.logo} />
             </div>
             <div>
               <h5>Jotform</h5>
-              <img src={logo2} alt="logo2" />
+              <img src={logo2} alt="logo2" className={styles.logo} />
             </div>
             <div>
               <h5>Calendly</h5>
-              <img src={logo3} alt="logo3" />
+              <img src={logo3} alt="logo3" className={styles.logo} />
             </div>
           </div>
         </div>
