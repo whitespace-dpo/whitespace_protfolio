@@ -11,7 +11,7 @@ const Project = [
     projectName: "Blood Donor",
     time: "September/2022 - November/2022",
     img: project_1,
-    link: "/blood_donor",
+    link: "blood_donor",
   },
   {
     projectName: "Human resource management",

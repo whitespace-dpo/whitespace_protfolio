@@ -1,0 +1,20 @@
+@import "../../index.css";
+.container{
+    padding: 2% 15%;
+}
+.cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.cover img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-column-gap: 10px;
+    margin-top: 5%;
+}
