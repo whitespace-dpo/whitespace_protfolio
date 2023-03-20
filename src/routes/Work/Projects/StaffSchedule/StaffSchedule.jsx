@@ -9,7 +9,11 @@ import logo3 from "../../../../assets/calendly_logo.png";
 import goal1 from "../../../../assets/staff_schedule_goal1.svg";
 import goal2 from "../../../../assets/staff_schedule_goal2.svg";
 import goal3 from "../../../../assets/staff_schedule_goal3.svg";
+import problem from "../../../../assets/staff_schedule_problem.svg";
+import solution from "../../../../assets/staff_schedule_solution.svg";
 import userflow from "../../../../assets/staff_schedule_userflow.png";
+import sitemap from "../../../../assets/staff_schedule_sitemap.png";
+
 import hifiwi_1_1 from "../../../../assets/staff_schedule_1_1.png";
 import hifiwi_1_2 from "../../../../assets/staff_schedule_1_2.png";
 import hifiwi_1_3 from "../../../../assets/staff_schedule_1_3.png";
@@ -28,17 +32,97 @@ import hifiwi_4_3 from "../../../../assets/staff_schedule_4_3.png";
 
 import hifiwi_5_1 from "../../../../assets/staff_schedule_5_1.png";
 import hifiwi_5_2 from "../../../../assets/staff_schedule_5_2.png";
-import hifiwi_5_3 from "../../../../assets/staff_schedule_5_2.png";
+import hifiwi_5_3 from "../../../../assets/staff_schedule_5_3.png";
+
+import secondarycolor from "../../../../assets/staff_schedule_secondarycolor.png";
+import primarycolor from "../../../../assets/staff_schedule_primarycolor.png";
+import shadow from "../../../../assets/staff_schedule_shadow.png";
+import component from "../../../../assets/staff_schedule_component.png";
+
+import hifiui_1_1 from "../../../../assets/hifiui_1_1.png";
+import hifiui_1_2 from "../../../../assets/hifiui_1_2.png";
+import hifiui_1_3 from "../../../../assets/hifiui_1_3.png";
+import hifiui_1_4 from "../../../../assets/hifiui_1_4.png";
+
+import hifiui_2_1 from "../../../../assets/hifiui_2_1.png";
+import hifiui_2_2 from "../../../../assets/hifiui_2_2.png";
+import hifiui_2_3 from "../../../../assets/hifiui_2_3.png";
+import hifiui_2_4 from "../../../../assets/hifiui_2_4.png";
+
+import hifiui_3_1 from "../../../../assets/hifiui_3_1.png";
+import hifiui_3_2 from "../../../../assets/hifiui_3_2.png";
+import hifiui_3_3 from "../../../../assets/hifiui_3_3.png";
+import hifiui_3_4 from "../../../../assets/hifiui_3_4.png";
+
+import hifiui_4_1 from "../../../../assets/hifiui_4_1.png";
+import hifiui_4_2 from "../../../../assets/hifiui_4_2.png";
+import hifiui_4_3 from "../../../../assets/hifiui_4_3.png";
+
+import hifiui_5_1 from "../../../../assets/hifiui_5_1.png";
+import hifiui_5_2 from "../../../../assets/hifiui_5_2.png";
+import hifiui_5_3 from "../../../../assets/hifiui_5_3.png";
 
 import styles from "./staffschedule.module.css";
-import WireframeCared from "../../../../components/Hi-fi Wireframe Card/WireframeCard";
 import WireframeCard from "../../../../components/Hi-fi Wireframe Card/WireframeCard";
 const StaffSchedule = () => {
-    const hifipro = [[hifiwi_1_1, hifiwi_1_2, hifiwi_1_3],
-    [hifiwi_2_1, hifiwi_2_2, hifiwi_2_3],
-    [hifiwi_3_1, hifiwi_3_2, hifiwi_3_3],
-    [hifiwi_4_1, hifiwi_4_2, hifiwi_4_3],
-    [hifiwi_5_1, hifiwi_5_2, hifiwi_5_3]]
+  const hifipro = [
+    [
+      { img: hifiwi_1_1, title: "Login" },
+      { img: hifiwi_1_2, title: "Register" },
+      { img: hifiwi_1_3, title: "Forgot password" },
+    ],
+    [
+      { img: hifiwi_2_1, title: "Homepage" },
+      { img: hifiwi_2_2, title: "Account Information" },
+      { img: hifiwi_2_3, title: "List of organizations" },
+    ],
+    [
+      { img: hifiwi_3_1, title: "Organization information" },
+      { img: hifiwi_3_2, title: "Organization schedule" },
+      { img: hifiwi_3_3, title: "List of organization persona" },
+    ],
+    [
+      { img: hifiwi_4_1, title: "Invite account to organization" },
+      { img: hifiwi_4_2, title: "Form store" },
+      { img: hifiwi_4_3, title: "Form to fill" },
+    ],
+    [
+      { img: hifiwi_5_1, title: "List of notifications" },
+      { img: hifiwi_5_2, title: "Notification details" },
+      { img: hifiwi_5_3, title: "Group chat" },
+    ],
+  ];
+
+  const hifiui = [
+    [
+      { img: hifiui_1_1, title: "Login" },
+      { img: hifiui_1_2, title: "Register" },
+      { img: hifiui_1_3, title: "Loading" },
+      { img: hifiui_1_4, title: "Reset password" },
+    ],
+    [
+      { img: hifiui_2_1, title: "Homepage" },
+      { img: hifiui_2_2, title: "Navigation" },
+      { img: hifiui_2_3, title: "List of messages" },
+      { img: hifiui_2_4, title: "Group chat" },
+    ],
+    [
+      { img: hifiui_3_1, title: "List of organizations" },
+      { img: hifiui_3_2, title: "Organization information" },
+      { img: hifiui_3_3, title: "Organization schedule" },
+      { img: hifiui_3_4, title: "List of organization persona" },
+    ],
+    [
+      { img: hifiui_4_1, title: "Account information" },
+      { img: hifiui_4_2, title: "Account setting" },
+      { img: hifiui_4_3, title: "List of tutorial" },
+    ],
+    [
+      { img: hifiui_5_1, title: "Form store" },
+      { img: hifiui_5_2, title: "Create form" },
+      { img: hifiui_5_3, title: "Form to fill" },
+    ],
+  ];
   return (
     <>
       <Navbar />
@@ -72,28 +156,59 @@ const StaffSchedule = () => {
 
         <div className={styles.row1}>
           <h4>User Problems</h4>
-          <ul>
-            <li>
-              I found that during the survey, most of the owners of small
-              organizations such as coffee shops, second-hand clothing stores,
-              etc. think that collecting, rotating shifts, scheduling weekly
-              employees is spend alot of time.
-            </li>
-            <li>
-              Staff of small organizations also find it difficult to collect
-              information on all employees to organize. They may forget to fill
-              it out causing scheduling delays affecting everyone.
-            </li>
-            <li>
-              If they are busy with unexpected work, staff often have difficulty
-              asking to change shifts. This usually takes a lot of time and has
-              to go through the owner.
-            </li>
-          </ul>
+          <div className={styles.row2_5_5}>
+            <img
+              src={problem}
+              alt="problem"
+              style={{ width: "60%", marginLeft: "20%" }}
+            />
+            <ul>
+              <li>
+                I found that during the survey, most of the owners of small
+                organizations such as coffee shops, second-hand clothing stores,
+                etc. think that collecting, rotating shifts, scheduling weekly
+                employees is spend alot of time.
+              </li>
+              <li>
+                Staff of small organizations also find it difficult to collect
+                information on all employees to organize. They may forget to
+                fill it out causing scheduling delays affecting everyone.
+              </li>
+              <li>
+                If they are busy with unexpected work, staff often have
+                difficulty asking to change shifts. This usually takes a lot of
+                time and has to go through the owner.
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className={styles.row1}>
           <h4>User Solutions</h4>
+          <div className={styles.row2_5_5}>
+           
+            <ul>
+              <li>
+                I introduced small organization owners to an app that can
+                replace them to remind and collect employee information,
+                automatically creating a complete work schedule.
+              </li>
+              <li>
+                The owner can take attendance of staff right on the app and
+                receive the staff's working hours statistics file for salary
+                payment convenience.
+              </li>
+              <li>
+                Staff can also request to ask someone to change shifts easily
+                right on the app.
+              </li>
+            </ul>
+            <img
+              src={solution}
+              alt="solution"
+              style={{ width: "60%", marginLeft: "20%" }}
+            />
+          </div>
         </div>
 
         <div className={styles.row1}>
@@ -132,7 +247,7 @@ const StaffSchedule = () => {
           </div>
         </div>
 
-        <div className={styles.row2_4_6}>
+        {/* <div className={styles.row2_3_7}>
           <div>
             <h4>Persona 1</h4>
             <p>
@@ -144,7 +259,7 @@ const StaffSchedule = () => {
           <img src={persona1} alt="persona1" />
         </div>
 
-        <div className={styles.row2_4_6}>
+        <div className={styles.row2_3_7}>
           <div>
             <h4>Persona 2</h4>
             <p>
@@ -154,19 +269,19 @@ const StaffSchedule = () => {
             </p>
           </div>
           <img src={persona2} alt="persona2" />
-        </div>
+        </div> */}
 
-        <div className={styles.row1}>
+        {/* <div className={styles.row1}>
           <h4>Empathy Mapping</h4>
         </div>
 
         <div className={styles.row1}>
           <h4>User Journey Mapping</h4>
-        </div>
+        </div> */}
 
-        <div className={styles.row1}>
+        {/* <div className={styles.row1}>
           <h4>User Stories</h4>
-        </div>
+        </div> */}
 
         <div className={styles.row1}>
           <h4>Competitive audit</h4>
@@ -188,30 +303,42 @@ const StaffSchedule = () => {
 
         <div className={styles.row1}>
           <h4>User Flow</h4>
-            <img src={userflow} alt="userflow"/>
+          <img src={userflow} alt="userflow" />
         </div>
 
         <div className={styles.row1}>
           <h4>Site Map</h4>
+          <img src={sitemap} alt="sitemap" />
         </div>
 
         <div className={styles.row1}>
           <h4>Hi-Fi Wireframing</h4>
           <div className={styles.row5}>
-            <WireframeCard props={hifipro[0]}/>
-            <WireframeCard props={hifipro[1]}/>
-            <WireframeCard props={hifipro[2]}/>
-            <WireframeCard props={hifipro[3]}/>
-            <WireframeCard props={hifipro[4]}/>
+            <WireframeCard props={hifipro[0]} />
+            <WireframeCard props={hifipro[1]} />
+            <WireframeCard props={hifipro[2]} />
+            <WireframeCard props={hifipro[3]} />
+            <WireframeCard props={hifipro[4]} />
           </div>
         </div>
 
         <div className={styles.row1}>
           <h4>Design system</h4>
+          <img src={primarycolor} alt="primarycolor" />
+          <img src={secondarycolor} alt="secondarycolor" />
+          <img src={shadow} alt="shasdow" />
+          <img src={component} alt="component" />
         </div>
 
         <div className={styles.row1}>
           <h4>Hi-Fi UI Design</h4>
+          <div className={styles.row5}>
+            <WireframeCard props={hifiui[0]} />
+            <WireframeCard props={hifiui[1]} />
+            <WireframeCard props={hifiui[2]} />
+            <WireframeCard props={hifiui[3]} />
+            <WireframeCard props={hifiui[4]} />
+          </div>
         </div>
 
         <div className={styles.row1}>

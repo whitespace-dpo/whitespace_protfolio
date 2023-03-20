@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles["navbar_leftcomponent"]}>
-        <img src={logo} alt="Logo"/>
+      <NavLink className={({ isActive }) => (isActive ? styles["active_link"] : styles["normal_link"])} to="/">
+      <img src={logo} alt="Logo"/>
+        </NavLink>
       </div>
       <div className={styles["navbar_rightcomponent"]}>
         <NavLink className={({ isActive }) => (isActive ? styles["active_link"] : styles["normal_link"])} to="/cv">

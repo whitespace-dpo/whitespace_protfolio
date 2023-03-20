@@ -1,19 +1,14 @@
+import styles from "./wireframecard.module.css";
 const WireframeCard = (props) => {
   return (
     <>
       <div>
-        <div>
-          <p>1</p>
-          <img src={props.props[0]} />
-        </div>
-        <div>
-          <p>2</p>
-          <img src={props.props[1]} />
-        </div>
-        <div>
-          <p>3</p>
-          <img src={props.props[2]} />
-        </div>
+        {props.props.map((item) => (
+          <div className={styles["wf_container"]}>
+            <p>{item.title}</p>
+            <img src={item.img} alt="test" />
+          </div>
+        ))}
       </div>
     </>
   );
