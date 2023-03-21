@@ -1,6 +1,6 @@
 import Navbar from "../../../../components/Navbar/Navbar";
 import cover from "../../../../assets/Blood_donor_167.png";
-import img1 from "../../../../assets/blood_donor_2.png";
+import img1 from "../../../../assets/blood_donor_cover.png"
 import problem from "../../../../assets/blood_donor_problem.png";
 import solution from "../../../../assets/blood_donor_solution.png";
 import goal1 from "../../../../assets/blood_donor_goal1.svg";
