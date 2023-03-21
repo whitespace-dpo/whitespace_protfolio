@@ -1,15 +1,16 @@
 import Navbar from "../../../../components/Navbar/Navbar";
 import cover from "../../../../assets/Blood_donor_167.png";
-import img1 from "../../../../assets/blood_donor_cover.png"
+import img1 from "../../../../assets/blood_donor_cover.png";
 import problem from "../../../../assets/blood_donor_problem.png";
 import solution from "../../../../assets/blood_donor_solution.png";
-import goal1 from "../../../../assets/blood_donor_goal1.svg";
-import goal2 from "../../../../assets/blood_donor_goal1.svg";
+import goal1 from "../../../../assets/blood_donor_goal3.svg";
+import goal2 from "../../../../assets/blood_donor_goal2.svg";
 import goal3 from "../../../../assets/blood_donor_goal1.svg";
 import logo1 from "../../../../assets/blood_donor_logo1.png";
 import logo2 from "../../../../assets/blood_donor_logo2.png";
 import logo3 from "../../../../assets/blood_donor_logo3.png";
 import screenflow1 from "../../../../assets/blood_donor_screenflow1.png";
+import screenflow2 from "../../../../assets/blood_donor_screenflow2.png";
 import screenflow from "../../../../assets/blood_donor_screenflow.png";
 import homepage from "../../../../assets/blood_donor_2_1.png";
 import campain1 from "../../../../assets/blood_donor_3_1.png";
@@ -31,7 +32,10 @@ import campaign5 from "../../../../assets/blood_donor_8_3.png";
 import campaign6 from "../../../../assets/blood_donor_8_4.png";
 import campaign7 from "../../../../assets/blood_donor_8_5.png";
 import campaign8 from "../../../../assets/blood_donor_8_6.png";
-
+import primary from "../../../../assets/blood_donor_primarycolor.png"
+import shadow from "../../../../assets/blood_donor_shadow.png"
+import typo from "../../../../assets/blood_donor_typo.png"
+import antd from "../../../../assets/antd.svg"
 import styles from "./blooddonor.module.css";
 const BloodDonor = () => {
   return (
@@ -67,7 +71,7 @@ const BloodDonor = () => {
 
         <div className={styles.row1}>
           <h4>User Problems</h4>
-          <div className={styles.row2_5_5}>
+          <div className={styles.row2_4_6}>
             <img
               src={problem}
               alt="problem"
@@ -75,20 +79,26 @@ const BloodDonor = () => {
             />
             <ul>
               <li>
-                I found that during the survey, most of the owners of small
-                organizations such as coffee shops, second-hand clothing stores,
-                etc. think that collecting, rotating shifts, scheduling weekly
-                employees is spend alot of time.
+                After surveying FPT students, I found that the percentage of
+                students knowing and participate in blood donation is not high.
+                They don't know how to approach those campaigns. They are also
+                confused because they do not know how the blood donation process
+                works, leading to the very scary thought of donating blood.
               </li>
               <li>
-                Staff of small organizations also find it difficult to collect
-                information on all employees to organize. They may forget to
-                fill it out causing scheduling delays affecting everyone.
+                Blood donation organizations have websites and Facebook pages to
+                promote blood donation campaigns, but they are often small in
+                scope (in the area or in organizations such as schools, and
+                companies) and do not take place continuously, making people not
+                follow up.
               </li>
               <li>
-                If they are busy with unexpected work, staff often have
-                difficulty asking to change shifts. This usually takes a lot of
-                time and has to go through the owner.
+                In addition, the urgent need for rare blood groups is also
+                difficult to reach to everyone. Usually, announcements are
+                communicated through social networking sites such as Facebook
+                but such social networking sites are not specifically for that
+                purpose, so someone who wants to help may be "lucky" to have the
+                opportunity to help.
               </li>
             </ul>
           </div>
@@ -96,21 +106,20 @@ const BloodDonor = () => {
         <div className={styles.row1}>
           <h4>User Solutions</h4>
           <div className={styles.row2_5_5}>
-           
             <ul>
               <li>
-                I introduced small organization owners to an app that can
-                replace them to remind and collect employee information,
-                automatically creating a complete work schedule.
+                I have proposed to everyone a website that can integrate all the
+                information about blood donation to make it easier for people to
+                receive information.
               </li>
               <li>
-                The owner can take attendance of staff right on the app and
-                receive the staff's working hours statistics file for salary
-                payment convenience.
+                A website that includes all blood donation organizations
+                together posting blood donation campaigns so that donors can
+                easily register online.
               </li>
               <li>
-                Staff can also request to ask someone to change shifts easily
-                right on the app.
+                A website that reports on people battling blood diseases and
+                heroes who silently donate their blood.
               </li>
             </ul>
             <img
@@ -124,132 +133,196 @@ const BloodDonor = () => {
         <div className={styles.row1}>
           <h4>The goal</h4>
           <p style={{ padding: "0 10%" }}>
-            Create an app that can have template forms for the owner. Collecting
-            and reminding staff to fill out the data. It also can automatically
-            create a work schedule for them. Help them save a lot of time to do
-            other work.
+            Create a website where people from all over the country can easily
+            register to donate blood and stay up to date with blood information.
           </p>
           <div className={styles.row3}>
             <div>
               <img src={goal1} alt="goal1" />
-              <h5>Save time</h5>
+              <h5>Easy to reach</h5>
               <p>
-                Support the employer to collect and arrange work schedules for
-                staff.
+                Register to participate in blood donation right on the web
+                quickly
               </p>
             </div>
             <div>
               <img src={goal2} alt="goal1" />
-              <h5>Flexible</h5>
+              <h5>Always active</h5>
               <p>
-                Support staff to change shifts quickly through notification and
-                chat.
+                Instantly send emergency notifications to you when an
+                organization nearby is running out of blood
               </p>
             </div>
             <div>
               <img src={goal3} alt="goal1" />
-              <h5>Feature integration</h5>
+              <h5>Reward</h5>
               <p>
-                Integrate many other support features such as attendance,
-                notifications, group chat.
+                Receive vouchers and gifts that convert according to the amount
+                of blood you donated right on the web
               </p>
             </div>
           </div>
 
           <div className={styles.row1}>
-          <h4>Competitive audit</h4>
-          <div className={styles.row3}>
-            <div>
-              <h5>Giọt máu vàng</h5>
-              <img src={logo1} alt="logo1" />
-            </div>
-            <div>
-              <h5>Hiến máu nhân đạo</h5>
-              <img src={logo2} alt="logo2" />
-            </div>
-            <div>
-              <h5>Viện huyết học</h5>
-              <img src={logo3} alt="logo3" />
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.row1}>
-          <h4>Screen Flow </h4>
-          <h5>Role: user</h5>
-          <img src={screenflow1} alt="screenflow1"/>
-          <h5>Role: admin</h5>
-          <img src={screenflow} alt="screenflow"/>
-        </div>
-
-        <div className={styles.row1}>
-          <h4>Homepage</h4>
-          <img src={homepage} alt="screenflow1" style={{width: "80%", marginLeft: "10%"}}/>
-        </div>
-
-        <div className={styles.row1}>
-          <h4>Blood donation campaign</h4>
-          <div className={styles.row2_5_5}>
-            <img src={campain1} alt="campain1"/>
-            <img src={campain2} alt="campain2"/>
-          </div>
-        </div>
-
-        <div className={styles.row1}>
-          <h4>Blood donation campaign</h4>
-          <div className={styles.row2_5_5}>
-            <img src={achievement1} alt="achievement1"/>
-            <img src={achievement2} alt="achievement2"/>
-          </div>
-        </div>
-
-        <div className={styles.row1}>
-          <h4>News</h4>
-          <div className={styles.row2_5_5}>
-            <img src={news1} alt="news1"/>
-            <img src={news2} alt="news2"/>
-          </div>
-        </div>
-
-        <div className={styles.row1}>
-          <h4>Donor account</h4>
-          <div className={styles.row2_5_5}>
-            <div>
-              <img src={d_account1} alt="d_account1"/>
-              <img src={d_account2} alt="d_account2"/>
-              <img src={d_account3} alt="d_account3"/>
-            </div>
-            <div>
-              <img src={d_account4} alt="d_account4"/>
-              <img src={d_account5} alt="d_account5"/>
+            <h4>Competitive audit</h4>
+            <div className={styles.row3}>
+              <div>
+                <h6>Giọt máu vàng</h6>
+                <img src={logo1} alt="logo1" className={styles.logo} />
+              </div>
+              <div>
+                <h6>Hiến máu nhân đạo</h6>
+                <img src={logo2} alt="logo2" className={styles.logo} />
+              </div>
+              <div>
+                <h6>Viện huyết học</h6>
+                <img src={logo3} alt="logo3" className={styles.logo} />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className={styles.row1}>
-          <h4>Homepage - Hospital role</h4>
-          <div className={styles.row2_5_5}>
-            <img src={homepage1} alt="homepage1"/>
-            <img src={homepage2} alt="homepage2"/>
+          <div className={styles.row1}>
+            <h4>Screen Flow </h4>
+            <h5>Role: Donor</h5>
+            <img src={screenflow1} alt="screenflow1" />
+            <h5>Role: Organization</h5>
+            <img src={screenflow2} alt="screenflow" />
+            <h5>Role: Admin</h5>
+            <img src={screenflow} alt="screenflow" />
           </div>
-        </div>
+          <div className={styles.row1}>
+            <h4>Design system</h4>
+            <img src={primary} alt="primary"/>
+            <img src={shadow} alt="shadow"/>
+            <img src={typo} alt="typo"/>
+            
+            <img src={antd} alt="antd" style={{width: "120px"}}/>
+            <p>Using Antdesign's component library</p>
+          </div>
+          <div className={styles.row1}>
+            <h4>Homepage</h4>
+            <img
+              src={homepage}
+              alt="screenflow1"
+              className={styles.screen}
+            />
+          </div>
 
-        <div className={styles.row1}>
-          <h4>Campaign - Hospital role</h4>
-          <div className={styles.row2_5_5}>
-            <div>
-              <img src={campaign3} alt="campaign3"/>
-              <img src={campaign4} alt="campaign4"/>
-              <img src={campaign5} alt="campaign5"/>
-            </div>
-            <div>
-              <img src={campaign6} alt="campaign6"/>
-              <img src={campaign7} alt="campaign7"/>
-              <img src={campaign8} alt="campaign8"/>
+          <div className={styles.row1}>
+            <h4>Blood donation campaign</h4>
+            <div className={styles.row2_5_5}>
+              <img src={campain1} alt="campain1" className={styles.screen} />
+              <img src={campain2} alt="campain2" className={styles.screen} />
             </div>
           </div>
-        </div>
 
+          <div className={styles.row1}>
+            <h4>News</h4>
+            <div className={styles.row2_5_5}>
+              <img src={news1} alt="news1" className={styles.screen} />
+              <img src={news2} alt="news2" className={styles.screen} />
+              
+            </div>
+          </div>
+
+          <div className={styles.row1}>
+            <h4>Achievement</h4>
+            <div className={styles.row2_5_5}>
+              <img
+                src={achievement1}
+                alt="achievement1"
+                className={styles.screen}
+              />
+              <img
+                src={achievement2}
+                alt="achievement2"
+                className={styles.screen}
+              />
+            </div>
+          </div>
+
+          <div className={styles.row1}>
+            <h4>Donor account</h4>
+            <div className={styles.row2_5_5}>
+              <div>
+                <img
+                  src={d_account1}
+                  alt="d_account1"
+                  className={styles.screen}
+                />
+                <img
+                  src={d_account2}
+                  alt="d_account2"
+                  className={styles.screen}
+                />
+                <img
+                  src={d_account3}
+                  alt="d_account3"
+                  className={styles.screen}
+                />
+              </div>
+              <div>
+                <img
+                  src={d_account4}
+                  alt="d_account4"
+                  className={styles.screen}
+                />
+                <img
+                  src={d_account5}
+                  alt="d_account5"
+                  className={styles.screen}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.row1}>
+            <h4>Homepage - Organization role</h4>
+            <div className={styles.row2_5_5}>
+              <img src={homepage1} alt="homepage1" className={styles.screen} />
+              <img src={homepage2} alt="homepage2" className={styles.screen} />
+            </div>
+          </div>
+
+          <div className={styles.row1}>
+            <h4>Campaign - Organization role</h4>
+            <div className={styles.row2_5_5}>
+              <div>
+                <img
+                  src={campaign3}
+                  alt="campaign3"
+                  className={styles.screen}
+                />
+                <img
+                  src={campaign4}
+                  alt="campaign4"
+                  className={styles.screen}
+                />
+                <img
+                  src={campaign5}
+                  alt="campaign5"
+                  className={styles.screen}
+                />
+              </div>
+              <div>
+                <img
+                  src={campaign6}
+                  alt="campaign6"
+                  className={styles.screen}
+                />
+                <img
+                  src={campaign7}
+                  alt="campaign7"
+                  className={styles.screen}
+                />
+                <img
+                  src={campaign8}
+                  alt="campaign8"
+                  className={styles.screen}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

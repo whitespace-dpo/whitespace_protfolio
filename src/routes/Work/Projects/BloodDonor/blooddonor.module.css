@@ -47,6 +47,7 @@
 .row3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
     text-align: left;
 }
 .row3 h5{
@@ -60,4 +61,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
+}
+.logo {
+    height: 200px !important;
+    width: auto !important;
+}
+.screen {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: solid 3px rgb(255, 255, 255);
 }
