@@ -10,7 +10,7 @@ import logo1 from "../../../../assets/blood_donor_logo1.png";
 import logo2 from "../../../../assets/blood_donor_logo2.png";
 import logo3 from "../../../../assets/blood_donor_logo3.png";
 import screenflow1 from "../../../../assets/blood_donor_screenflow1.png";
-import screenflow2 from "../../../../assets/blood_donor_screenflow2.png";
+import screenflow from "../../../../assets/blood_donor_screenflow.png";
 import homepage from "../../../../assets/blood_donor_2_1.png";
 import campain1 from "../../../../assets/blood_donor_3_1.png";
 import campain2 from "../../../../assets/blood_donor_3_2.png";
@@ -179,7 +179,7 @@ const BloodDonor = () => {
           <h5>Role: user</h5>
           <img src={screenflow1} alt="screenflow1"/>
           <h5>Role: admin</h5>
-          <img src={screenflow2} alt="screenflow2"/>
+          <img src={screenflow} alt="screenflow"/>
         </div>
 
         <div className={styles.row1}>
