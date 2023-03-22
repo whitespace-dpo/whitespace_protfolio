@@ -81,6 +81,10 @@ const HRManagement = () => {
           <img src={primary} alt="primary" />
           <img src={shadow} alt="shadow" />
           <img src={typo} alt="typo" />
+        </div>
+
+        <div className={styles.row1}>
+          <h4>Library</h4>
 
           <img src={antd} alt="antd" style={{ width: "120px" }} />
           <p>Using Antdesign's component library</p>

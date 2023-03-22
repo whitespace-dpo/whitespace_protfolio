@@ -2,10 +2,11 @@
 .navbar {
   padding: 1% 8%;
   height: 54px;
-  background-color: #fff6e8;
+  background-color: #AFECE8;
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .navbar_leftcomponent {
@@ -25,11 +26,11 @@
   font-size: 16px;
 }
 .active_link {
-  color: #004141;
+  color: #001b1b;
 }
 .normal_link {
-  color: #42bb89;
+  color: #00a79b;
 }
 .normal_link:hover {
-  color: #004141;
+  color: #004d47;
 }

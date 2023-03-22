@@ -13,6 +13,7 @@ import problem from "../../../../assets/staff_schedule_problem.svg";
 import solution from "../../../../assets/staff_schedule_solution.svg";
 import userflow from "../../../../assets/staff_schedule_userflow.png";
 import sitemap from "../../../../assets/staff_schedule_sitemap.png";
+import mockup_1 from "../../../../assets/staff_schedule_mockup_1.png";
 
 import hifiwi_1_1 from "../../../../assets/staff_schedule_1_1.png";
 import hifiwi_1_2 from "../../../../assets/staff_schedule_1_2.png";
@@ -152,7 +153,7 @@ const StaffSchedule = () => {
             application also supports staff attendance right on the app.
           </p>
         </div>
-        <img src={img1} alt="img1" />
+        <img src={mockup_1} alt="img1" />
 
         <div className={styles.row1}>
           <h4>User Problems</h4>
@@ -186,7 +187,6 @@ const StaffSchedule = () => {
         <div className={styles.row1}>
           <h4>User Solutions</h4>
           <div className={styles.row2_5_5}>
-           
             <ul>
               <li>
                 I introduced small organization owners to an app that can
@@ -246,31 +246,32 @@ const StaffSchedule = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className={styles.row2_3_7}>
-          <div>
-            <h4>Persona 1</h4>
-            <p>
-              Problem statement: Binh is a part-time student who needs the
-              earliest scheduled information because he doesn't want to waste
-              time, not knowing what to do next week.
-            </p>
+        <div className={styles.row1}>
+          <div className={styles.row2_3_7}>
+            <div>
+              <h4>Persona 1</h4>
+              <p>
+                Problem statement: Binh is a part-time student who needs the
+                earliest scheduled information because he doesn't want to waste
+                time, not knowing what to do next week.
+              </p>
+            </div>
+            <img src={persona1} alt="persona1" className={styles.shadow}/>
           </div>
-          <img src={persona1} alt="persona1" />
         </div>
-
-        <div className={styles.row2_3_7}>
-          <div>
-            <h4>Persona 2</h4>
-            <p>
-              Problem statement: Thao is the owner of a coffee shop who needs an
-              app to collect and organize the calendar automatically because she
-              is too busy with other things
-            </p>
+        <div className={styles.row1}>
+          <div className={styles.row2_3_7}>
+            <div>
+              <h4>Persona 2</h4>
+              <p>
+                Problem statement: Thao is the owner of a coffee shop who needs
+                an app to collect and organize the calendar automatically
+                because she is too busy with other things
+              </p>
+            </div>
+            <img src={persona2} alt="persona2" className={styles.shadow} />
           </div>
-          <img src={persona2} alt="persona2" />
-        </div> */}
-
+        </div>
         {/* <div className={styles.row1}>
           <h4>Empathy Mapping</h4>
         </div>
@@ -285,19 +286,19 @@ const StaffSchedule = () => {
 
         <div className={styles.row1}>
           <h4>Competitive audit</h4>
-          <div className={styles.row3} >
-            <div style={{textAlign: "center"}}>
-              <h5>Agendrix</h5>
+          <div className={styles.row3}>
+            <a href="https://www.agendrix.com/" className={styles.center}>
               <img src={logo1} alt="logo1" className={styles.logo} />
-            </div>
-            <div>
-              <h5>Jotform</h5>
+              <h6>Agendrix</h6>
+            </a>
+            <a href="https://www.jotform.com/" className={styles.center}>
               <img src={logo2} alt="logo2" className={styles.logo} />
-            </div>
-            <div>
-              <h5>Calendly</h5>
+              <h6>Jotform</h6>
+            </a>
+            <a href="https://calendly.com/" className={styles.center}>
               <img src={logo3} alt="logo3" className={styles.logo} />
-            </div>
+              <h6>Calendly</h6>
+            </a>
           </div>
         </div>
 
@@ -341,9 +342,6 @@ const StaffSchedule = () => {
           </div>
         </div>
 
-        <div className={styles.row1}>
-          <h4>User Feedbacks</h4>
-        </div>
         <img src={img1} alt="img1" />
       </div>
     </>

@@ -1,4 +1,13 @@
 @import "../../../../index.css";
+a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 500ms;
+}
+
+a:hover{
+    transform: scale(1.03);
+}
 .cover{
     width:100vw;
     z-index: 0;
@@ -56,6 +65,7 @@
 .row1{
     padding: 2% 0;
     text-align: center;
+    margin: 2% 0;
 }
 .row5{
     display: grid;
@@ -70,4 +80,7 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border: solid 3px rgb(255, 255, 255);
+}
+.center{
+    text-align: center;
 }

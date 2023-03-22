@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#FFFBF4;
+  background-color:#e9fffe;
 
 }
 code {
@@ -17,6 +17,11 @@ code {
 }
 p{
   font-size: 16px;
+}
+h6{
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 5px;
 }
 h5{
   font-size: 17px;

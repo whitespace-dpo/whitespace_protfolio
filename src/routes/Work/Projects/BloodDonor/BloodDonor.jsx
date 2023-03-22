@@ -32,10 +32,10 @@ import campaign5 from "../../../../assets/blood_donor_8_3.png";
 import campaign6 from "../../../../assets/blood_donor_8_4.png";
 import campaign7 from "../../../../assets/blood_donor_8_5.png";
 import campaign8 from "../../../../assets/blood_donor_8_6.png";
-import primary from "../../../../assets/blood_donor_primarycolor.png"
-import shadow from "../../../../assets/blood_donor_shadow.png"
-import typo from "../../../../assets/blood_donor_typo.png"
-import antd from "../../../../assets/antd.svg"
+import primary from "../../../../assets/blood_donor_primarycolor.png";
+import shadow from "../../../../assets/blood_donor_shadow.png";
+import typo from "../../../../assets/blood_donor_typo.png";
+import antd from "../../../../assets/antd.svg";
 import styles from "./blooddonor.module.css";
 const BloodDonor = () => {
   return (
@@ -162,165 +162,136 @@ const BloodDonor = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className={styles.row1}>
+          <h4>Competitive audit</h4>
+          <div className={styles.row3}>
+            <a href="https://giotmauvang.org.vn/" className={styles.center}>
+              <img src={logo1} alt="logo1" className={styles.logo} />
+              <h6>Giọt máu vàng</h6>
+            </a>
+            <a href="http://hienmaunhandao.org.vn/" className={styles.center}>
+              <img src={logo2} alt="logo2" className={styles.logo} />
+              <h6>Hiến máu nhân đạo</h6>
+            </a>
+            <a href="https://vienhuyethoc.vn/" className={styles.center}>
+              <img src={logo3} alt="logo3" className={styles.logo} />
+              <h6>Viện huyết học</h6>
+            </a>
+          </div>
+        </div>
 
-          <div className={styles.row1}>
-            <h4>Competitive audit</h4>
-            <div className={styles.row3}>
-              <div>
-                <h6>Giọt máu vàng</h6>
-                <img src={logo1} alt="logo1" className={styles.logo} />
-              </div>
-              <div>
-                <h6>Hiến máu nhân đạo</h6>
-                <img src={logo2} alt="logo2" className={styles.logo} />
-              </div>
-              <div>
-                <h6>Viện huyết học</h6>
-                <img src={logo3} alt="logo3" className={styles.logo} />
-              </div>
-            </div>
-          </div>
+        <div className={styles.row1}>
+          <h4>Screen Flow </h4>
+          <h6>Role: Donor</h6>
+          <img src={screenflow1} alt="screenflow1" />
+          <h6>Role: Organization</h6>
+          <img src={screenflow2} alt="screenflow" />
+          <h6>Role: Admin</h6>
+          <img src={screenflow} alt="screenflow" />
+        </div>
 
-          <div className={styles.row1}>
-            <h4>Screen Flow </h4>
-            <h5>Role: Donor</h5>
-            <img src={screenflow1} alt="screenflow1" />
-            <h5>Role: Organization</h5>
-            <img src={screenflow2} alt="screenflow" />
-            <h5>Role: Admin</h5>
-            <img src={screenflow} alt="screenflow" />
+       
+       
+        <div className={styles.row1}>
+          <h4>Library</h4>
+
+          <img src={antd} alt="antd" style={{ width: "120px" }} />
+          <p>Using Antdesign's component library</p>
+        </div>
+
+        <div className={styles.row1}>
+          <h4>Homepage</h4>
+          <img src={homepage} alt="screenflow1" className={styles.screen} />
+        </div>
+
+        <div className={styles.row1}>
+          <h4>Blood donation campaign</h4>
+          <div className={styles.row2_5_5}>
+            <img src={campain1} alt="campain1" className={styles.screen} />
+            <img src={campain2} alt="campain2" className={styles.screen} />
           </div>
-          <div className={styles.row1}>
-            <h4>Design system</h4>
-            <img src={primary} alt="primary"/>
-            <img src={shadow} alt="shadow"/>
-            <img src={typo} alt="typo"/>
-            
-            <img src={antd} alt="antd" style={{width: "120px"}}/>
-            <p>Using Antdesign's component library</p>
+        </div>
+
+        <div className={styles.row1}>
+          <h4>News</h4>
+          <div className={styles.row2_5_5}>
+            <img src={news1} alt="news1" className={styles.screen} />
+            <img src={news2} alt="news2" className={styles.screen} />
           </div>
-          <div className={styles.row1}>
-            <h4>Homepage</h4>
+        </div>
+
+        <div className={styles.row1}>
+          <h4>Achievement</h4>
+          <div className={styles.row2_5_5}>
             <img
-              src={homepage}
-              alt="screenflow1"
+              src={achievement1}
+              alt="achievement1"
+              className={styles.screen}
+            />
+            <img
+              src={achievement2}
+              alt="achievement2"
               className={styles.screen}
             />
           </div>
+        </div>
 
-          <div className={styles.row1}>
-            <h4>Blood donation campaign</h4>
-            <div className={styles.row2_5_5}>
-              <img src={campain1} alt="campain1" className={styles.screen} />
-              <img src={campain2} alt="campain2" className={styles.screen} />
-            </div>
-          </div>
-
-          <div className={styles.row1}>
-            <h4>News</h4>
-            <div className={styles.row2_5_5}>
-              <img src={news1} alt="news1" className={styles.screen} />
-              <img src={news2} alt="news2" className={styles.screen} />
-              
-            </div>
-          </div>
-
-          <div className={styles.row1}>
-            <h4>Achievement</h4>
-            <div className={styles.row2_5_5}>
+        <div className={styles.row1}>
+          <h4>Donor account</h4>
+          <div className={styles.row2_5_5}>
+            <div>
               <img
-                src={achievement1}
-                alt="achievement1"
+                src={d_account1}
+                alt="d_account1"
                 className={styles.screen}
               />
               <img
-                src={achievement2}
-                alt="achievement2"
+                src={d_account2}
+                alt="d_account2"
+                className={styles.screen}
+              />
+              <img
+                src={d_account3}
+                alt="d_account3"
+                className={styles.screen}
+              />
+            </div>
+            <div>
+              <img
+                src={d_account4}
+                alt="d_account4"
+                className={styles.screen}
+              />
+              <img
+                src={d_account5}
+                alt="d_account5"
                 className={styles.screen}
               />
             </div>
           </div>
+        </div>
 
-          <div className={styles.row1}>
-            <h4>Donor account</h4>
-            <div className={styles.row2_5_5}>
-              <div>
-                <img
-                  src={d_account1}
-                  alt="d_account1"
-                  className={styles.screen}
-                />
-                <img
-                  src={d_account2}
-                  alt="d_account2"
-                  className={styles.screen}
-                />
-                <img
-                  src={d_account3}
-                  alt="d_account3"
-                  className={styles.screen}
-                />
-              </div>
-              <div>
-                <img
-                  src={d_account4}
-                  alt="d_account4"
-                  className={styles.screen}
-                />
-                <img
-                  src={d_account5}
-                  alt="d_account5"
-                  className={styles.screen}
-                />
-              </div>
-            </div>
+        <div className={styles.row1}>
+          <h4>Homepage - Organization role</h4>
+          <div className={styles.row2_5_5}>
+            <img src={homepage1} alt="homepage1" className={styles.screen} />
+            <img src={homepage2} alt="homepage2" className={styles.screen} />
           </div>
+        </div>
 
-          <div className={styles.row1}>
-            <h4>Homepage - Organization role</h4>
-            <div className={styles.row2_5_5}>
-              <img src={homepage1} alt="homepage1" className={styles.screen} />
-              <img src={homepage2} alt="homepage2" className={styles.screen} />
+        <div className={styles.row1}>
+          <h4>Campaign - Organization role</h4>
+          <div className={styles.row2_5_5}>
+            <div>
+              <img src={campaign3} alt="campaign3" className={styles.screen} />
+              <img src={campaign4} alt="campaign4" className={styles.screen} />
+              <img src={campaign5} alt="campaign5" className={styles.screen} />
             </div>
-          </div>
-
-          <div className={styles.row1}>
-            <h4>Campaign - Organization role</h4>
-            <div className={styles.row2_5_5}>
-              <div>
-                <img
-                  src={campaign3}
-                  alt="campaign3"
-                  className={styles.screen}
-                />
-                <img
-                  src={campaign4}
-                  alt="campaign4"
-                  className={styles.screen}
-                />
-                <img
-                  src={campaign5}
-                  alt="campaign5"
-                  className={styles.screen}
-                />
-              </div>
-              <div>
-                <img
-                  src={campaign6}
-                  alt="campaign6"
-                  className={styles.screen}
-                />
-                <img
-                  src={campaign7}
-                  alt="campaign7"
-                  className={styles.screen}
-                />
-                <img
-                  src={campaign8}
-                  alt="campaign8"
-                  className={styles.screen}
-                />
-              </div>
+            <div>
+              <img src={campaign6} alt="campaign6" className={styles.screen} />
+              <img src={campaign7} alt="campaign7" className={styles.screen} />
+              <img src={campaign8} alt="campaign8" className={styles.screen} />
             </div>
           </div>
         </div>
