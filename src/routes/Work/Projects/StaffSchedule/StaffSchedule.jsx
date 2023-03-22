@@ -153,7 +153,7 @@ const StaffSchedule = () => {
             application also supports staff attendance right on the app.
           </p>
         </div>
-        <img src={mockup_1} alt="img1" />
+        <img src={mockup_1} alt="img1" className={styles.shadow}/>
 
         <div className={styles.row1}>
           <h4>User Problems</h4>
@@ -342,7 +342,7 @@ const StaffSchedule = () => {
           </div>
         </div>
 
-        <img src={img1} alt="img1" />
+        <img src={img1} alt="img1" className={styles.shadow}/>
       </div>
     </>
   );

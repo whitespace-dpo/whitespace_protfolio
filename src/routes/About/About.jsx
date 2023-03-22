@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import styles from "./about.module.css";
-import profile_picture from "../../assets/profile_picture.png";
+import profile_picture from "../../assets/profile_picture.jpg";
 const About = () => {
   return (
     <div>
